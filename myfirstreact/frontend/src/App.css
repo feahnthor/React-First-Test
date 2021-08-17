@@ -1,0 +1,12 @@
+.myTest {
+  color: #37c1cb;
+  padding-left: 1rem;
+}
+
+.foo-test {
+  background-color: #131313;
+  position: 0;
+  z-index: 100;
+  align-items: center;
+  display: flex;
+}
