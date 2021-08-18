@@ -18,9 +18,6 @@ const Header = () => {
   return (
     <header className="sticky-top">    
       <nav className="navbar navbar-expand navbar-dark foo-test">
-        {/* <a href="/" className="navbar-brand">
-          Wandering Inn
-        </a> */}
         <Link to='/' className="navbar-brand">WanderingInn</Link>
         <div className="navbar-nav mr-auto">
           
@@ -46,7 +43,7 @@ const Header = () => {
       </nav>
     </header>
   )
-};
+  };
 
 const Homepage = () => {
   return (
@@ -60,38 +57,3 @@ const Homepage = () => {
 };
 
 export {Homepage, Aboutpage, Header, Login, RestaurantList};
-// function App() {
-//   const styleObj = {
-//     color: 'red',
-//     fontSize: 20
-//   }
-
-//   const myTest = (
-//     <nav className="navbar navbar-expand navbar-dark bg-dark">
-//        <a href="/" className="navbar-brand">
-//           Wandering Inn
-//         </a>
-//         <div className="navbar-nav mr-auto">
-//           <li className="nav-item" style={styleObj}>
-//             Tsetd
-//           </li>
-//         </div>
-//     </nav>
-    
-//   )
-//   const element = (
-//   <div>
-//     <h1>Hello!</h1>
-//     <h2 style={styleObj}>Good to see you here.</h2>
-//     <h3> this is the end</h3>
-//   </div>
-// );
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         {element}
-//       </header>
-//       {myTest}
-//     </div>
-//   );
-// }
