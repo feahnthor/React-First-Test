@@ -94,7 +94,7 @@ const RestaurantsList = props => {
           <input
             type="text"
             className="form-control me-2"
-            placeholder="Search by name"
+            placeholder="Search by names"
             value={searchName}
             onChange={onChangeSearchName}
           />
